@@ -1,3 +1,6 @@
+#
+# Uninstall TeamViewer completely on Windows x64. Used as a quick`n`dirty fix for corrupted installations (required re-install after apply).
+#
 
 $WindowsRegUninstallPath="HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
 $TVRegUninstallPath="$WindowsRegUninstallPath\TeamViewer"
