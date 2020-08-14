@@ -1,3 +1,7 @@
+#
+# This will export some data from Active Directory into special file for Yealink phones. Phones then can download it automatically. Originally written by Alexander O.
+#
+
 $FolderLocation = "C:\inetpub\wwwroot-dfsr\voip\"
 $strName = "company-phonebook"
 $stream = [System.IO.StreamWriter] "$FolderLocation\\$strName.xml"
